@@ -13,6 +13,7 @@ print "total run time ", totalruntime
 //Setting the random seed 
 objref semente
 semente = new Random(RANDOM_SEED)
+semente.Random123()
 semente.uniform(0,1000000000)
 semente_pick=(semente.repick())
 semente_randomica = semente_pick
@@ -304,6 +305,7 @@ max=10 // 10 ms delay
 
 objref prob
 prob=new Random()
+prob.Random123()
 
 //Connecting PF -> PC
 for i=0,NPF-1 {
@@ -328,6 +330,7 @@ max=10 // 100 ms delay
 
 objref prob
 prob=new Random()
+prob.Random123()
 
 //Connecting CF -> PC
 for i=0,NCF-1 {
@@ -350,6 +353,7 @@ max=10 // 10 ms delay
 
 objref prob
 prob=new Random()
+prob.Random123()
 
 //Connecting PF -> SC 0
 i=0
@@ -377,6 +381,7 @@ max=10 // 10 ms delay
 
 objref prob
 prob=new Random()
+prob.Random123()
 
 //Connecting PF -> SC 0
 for i=0,NPF-1 {
@@ -416,6 +421,7 @@ max=10 // 10 ms delay
 
 objref prob
 prob=new Random()
+prob.Random123()
 
 
 //Connecting CF -> SC 0
@@ -472,6 +478,7 @@ max=10 // 10 ms delay
 
 objref prob
 prob=new Random()
+prob.Random123()
 
 //Connecting BG -> PC
 for i=0,NSC-1 {
